@@ -263,7 +263,7 @@ const Profile = () => {
             <div className="hero-content px-5">
               <span className="subtitle">FRONTEND UI/UX DESIGNER & DEVELOPER</span>
               <h1>
-                I'm Archana <br /> Singh
+                I'm Archana <br /> Kumari
               </h1>
               {/* <p>Front-end developers are the architects of the web experiences we encounter every day. They translate stunning visual designs from UI/UX designers into functional and interactive websites and web applications. Their expertise lies in crafting the front-end, the user-facing side that users see and interact with. Using a combination of programming languages like HTML, CSS, and JavaScript, they bring web pages to life, ensuring smooth navigation, animations, and a visually captivating design that adheres to responsive layouts for optimal display across various devices
 
