@@ -282,7 +282,7 @@ const Profile = () => {
                 </button></a>
                 <button className="btn bt-outline-new">
                   <a href="/archana-cv.pdf" download="archana_Resume.pdf" style={{ textDecoration: "none", color: "inherit" }}>
-                  Resume Download <span className="arrow-icon-new"><DownloadIcon /></span>
+                  My Resume <span className="arrow-icon-new"><DownloadIcon /></span>
                   </a>
                 </button>
 
