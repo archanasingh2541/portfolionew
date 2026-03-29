@@ -64,12 +64,12 @@ import healthimg17 from "../assets/img/public-health-app/health-app-17.png";
 import healthimg001 from "../assets/img/public-health-app/health-app-001.png";
 
 
-import yugenimg01 from "../assets/img/yugen/image-01.png";
-import daniimg001 from "../assets/img/Dani-catto/img-001.png";
-import daniimg002 from "../assets/img/Dani-catto/img-002.png";
-import daniimg003 from "../assets/img/Dani-catto/img-003.png";
+import yugenimg01 from "../assets/img/yugen/image-01.webp";
+import daniimg001 from "../assets/img/Dani-catto/img-001.webp";
+import daniimg002 from "../assets/img/Dani-catto/img-002.webp";
+import daniimg003 from "../assets/img/Dani-catto/img-003.webp";
 
-import ladderimage from "../assets/img/ladder-lock/img-001.png";
+import ladderimage from "../assets/img/ladder-lock/img-001.webp";
 import ladderimagess from "../assets/img/ladder-lock/img-0011.png";
 
 import digiimg01 from "../assets/img/digiform-portal/digi-form-01.png";
