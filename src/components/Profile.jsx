@@ -351,12 +351,13 @@ const Profile = () => {
                           languages like React UI, HTML, CSS, SASS, TAILWIND CSS, BOOTSTRAP and JavaScript, 
                           they bring web pages to life, ensuring smooth navigation, animations, and a visually 
                           captivating design that adheres to responsive layouts for optimal display across various devices.</p> */}
+                     {/* <p>
+                      Front-end developers are the architects of the web experiences we encounter every day, transforming UI/UX designs into functional and interactive websites and applications. I design wireframes using Adobe XD and Figma to establish a clear structure and user flow before development. Using technologies such as React, HTML5, CSS3, SASS, Tailwind CSS, Bootstrap, and JavaScript, I build responsive, visually appealing interfaces with smooth navigation and user-friendly interactions.
+                     </p> */}
+
                      <p>
-                      Front-end developers are the architects of the web experiences we encounter every day, 
-                      transforming UI/UX designs into functional and interactive websites and applications.
-                       I design wireframes using Adobe XD and Figma to establish a clear structure and user flow before development. 
-                       Using technologies like React, HTML, CSS, SASS, Tailwind CSS, Bootstrap, and JavaScript, 
-                      I build responsive and visually appealing interfaces with smooth navigation and user-friendly interactions.
+                    Front-end developers are the architects of the web experiences we encounter every day, transforming UI/UX designs into functional and interactive websites and applications. I design wireframes using Adobe XD and Figma to establish a clear structure and user flow before development. Using technologies such as React, HTML5, CSS3, SASS, Tailwind CSS, Bootstrap, and JavaScript, I build responsive, visually appealing interfaces with smooth navigation and user-friendly interactions.
+                    
                      </p>
                      
                       </div>
