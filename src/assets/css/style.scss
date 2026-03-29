@@ -1,10 +1,10 @@
 $primary-color: #d5c455;
 // $bluecolor:#144b9d;
-$bluecolor:#144b9d;
-$whitecolor:#ffffff;
-$blackcolor:#000000;
-$mainfont:"Poppins", sans-serif;
-$greycolor:#f0f0f0;
+$bluecolor: #144b9d;
+$whitecolor: #ffffff;
+$blackcolor: #000000;
+$mainfont: "Poppins", sans-serif;
+$greycolor: #f0f0f0;
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -19,9 +19,9 @@ body {
 .subtitle {
   color: $bluecolor;
 
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 21px;
 }
 
 .hero-content h1 {
@@ -51,53 +51,54 @@ body {
   }
 }
 
-.btn-about{
-    background-color: $bluecolor;
-    color: $whitecolor;
-    border-radius: 0px;
-    padding: 15px 15px;
-    border: 1px solid $bluecolor;
-    &:hover{
-        background-color: $whitecolor;
-        
-        color: $bluecolor;
-          border: 1px solid $bluecolor;
-    }
-}
-.bt-outline-new{
+.btn-about {
+  background-color: $bluecolor;
+  color: $whitecolor;
+  border-radius: 0px;
+  padding: 15px 15px;
+  border: 1px solid $bluecolor;
+
+  &:hover {
+    background-color: $whitecolor;
+
     color: $bluecolor;
     border: 1px solid $bluecolor;
-    border-radius: 0px;
-    padding: 15px 15px;
-    &:hover{
-        background-color: $bluecolor;
-        color: $whitecolor;
-        border: 1px solid $bluecolor;
+  }
+}
+
+.bt-outline-new {
+  color: $bluecolor;
+  border: 1px solid $bluecolor;
+  border-radius: 0px;
+  padding: 15px 15px;
+
+  &:hover {
+    background-color: $bluecolor;
+    color: $whitecolor;
+    border: 1px solid $bluecolor;
+  }
+}
+
+.nav-header {
+  z-index: 99999;
+  padding: 11px 0px !important;
+}
+
+.main-sec {
+  //  min-height: 100vh;
+  //   display: flex;
+  background: linear-gradient(to right,
+      $whitecolor 50%,
+      $bluecolor 50%);
+}
+
+.nav-item-main {
+  li {
+    a {
+      color: $whitecolor !important;
     }
-}
 
-.nav-header{
-        z-index: 99999;
-        padding: 11px 0px !important;
-}
-
-.main-sec{
-    //  min-height: 100vh;
-//   display: flex;
-  background: linear-gradient(
-    to right,
-    $whitecolor 50%,
-    $bluecolor 50%
-  );
-}
-
-.nav-item-main{
-    li{
-        a{
-color:$whitecolor !important;
-        }
-        
-    }
+  }
 }
 
 
@@ -151,33 +152,36 @@ color:$whitecolor !important;
 
 
 
-.about-sec{
+.about-sec {
   background-color: $greycolor;
 }
-.main-inner-sec{
-  padding:50px 20px;
+
+.main-inner-sec {
+  padding: 50px 20px;
 }
-.tech-sec-main{
+
+.tech-sec-main {
   margin-top: 40px !important;
 }
 
-.para-about{
-  p{
-    font-size:18px;
-    line-height:37px;
+.para-about {
+  p {
+    font-size: 18px;
+    line-height: 37px;
   }
 }
 
-.about-sec-cont{
-      font-size: 29px;
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 65px;
+.about-sec-cont {
+  font-size: 29px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 65px;
 }
-.me-email{
- color: #ff4d4f;
-    margin-right: 4px;
-}   
+
+.me-email {
+  color: #ff4d4f;
+  margin-right: 4px;
+}
 
 
 .timeline {
@@ -191,7 +195,7 @@ color:$whitecolor !important;
   }
 
   .timeline-line {
-        position: absolute;
+    position: absolute;
     left: 39%;
     top: 80px;
     width: 2px;
@@ -207,7 +211,7 @@ color:$whitecolor !important;
 
     &.reverse {
       flex-direction: row-reverse;
-          align-items: baseline;
+      align-items: baseline;
     }
 
     .timeline-left {
@@ -221,16 +225,16 @@ color:$whitecolor !important;
       }
 
       p {
-          font-size: 17px;
-    color: #666;
-    margin-top: 5px;
-    line-height: 32px;
+        font-size: 17px;
+        color: #666;
+        margin-top: 5px;
+        line-height: 32px;
 
       }
     }
 
 
-   
+
     .timeline-right {
       width: 30%;
       padding: 0 20px;
@@ -242,10 +246,10 @@ color:$whitecolor !important;
       }
 
       p {
-          font-size: 17px;
-    color: #666;
-    margin-top: 5px;
-    line-height: 32px;
+        font-size: 17px;
+        color: #666;
+        margin-top: 5px;
+        line-height: 32px;
 
       }
     }
@@ -266,9 +270,11 @@ color:$whitecolor !important;
         &.green {
           background: #0fac49;
         }
+
         &.red {
           background: #f87171;
         }
+
         &.yellow {
           background: #facc15;
         }
@@ -300,7 +306,7 @@ color:$whitecolor !important;
   }
 }
 
-.timeline-right{
+.timeline-right {
   text-align: right;
 }
 
@@ -315,7 +321,7 @@ color:$whitecolor !important;
   }
 
   .title {
-     font-size: 29px;
+    font-size: 29px;
     text-align: left;
     font-weight: 700;
     margin-bottom: 15px;
@@ -373,9 +379,10 @@ color:$whitecolor !important;
     }
   }
 }
-.education-card{
-  svg{
-        color: #ff4d4f;
+
+.education-card {
+  svg {
+    color: #ff4d4f;
     margin-bottom: 15px;
     font-size: 30px;
   }
@@ -393,7 +400,7 @@ color:$whitecolor !important;
   }
 
   h2 {
-      font-size: 29px;
+    font-size: 29px;
     text-align: center;
     font-weight: 700;
     margin-bottom: 65px;
@@ -435,20 +442,20 @@ color:$whitecolor !important;
     }
 
     h3 {
-          margin: 15px 0;
-    font-size: 18px;
-    font-weight: 600;
+      margin: 15px 0;
+      font-size: 18px;
+      font-weight: 600;
 
     }
 
     button {
-          padding: 8px 15px;
-    border: none;
-    background: transparent;
-    color: #144b9d;
-    cursor: pointer;
-    border-radius: 0px;
-    border: 1px solid #144b9d;
+      padding: 8px 15px;
+      border: none;
+      background: transparent;
+      color: #144b9d;
+      cursor: pointer;
+      border-radius: 0px;
+      border: 1px solid #144b9d;
 
       &:hover {
         background: #144b9d;
@@ -469,7 +476,7 @@ color:$whitecolor !important;
     align-items: center;
     justify-content: center;
     // z-index: 1000;
-    z-index:99999;
+    z-index: 99999;
 
     .carousel-img {
       max-width: 100%;
@@ -539,15 +546,15 @@ color:$whitecolor !important;
 
   .contact-col {
     .label {
-       font-size: 14px;
-    letter-spacing: 2px;
-    color: #888;
-    margin-bottom: 20px;
-    font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 2px;
+      color: #888;
+      margin-bottom: 20px;
+      font-weight: 700;
     }
 
     h3 {
-          font-size: 19px;
+      font-size: 19px;
       font-weight: 500;
       line-height: 1.5;
       margin-bottom: 10px;
@@ -563,18 +570,19 @@ color:$whitecolor !important;
     }
 
     ul {
-          list-style: none;
-    padding: 0;
-    flex-direction: row;
-    display: flex;
-    gap: 11px;
+      list-style: none;
+      padding: 0;
+      flex-direction: row;
+      display: flex;
+      gap: 11px;
 
       li {
         font-size: 20px;
         margin-bottom: 12px;
         cursor: pointer;
         transition: 0.3s;
-        a{
+
+        a {
           color: #222;
         }
 
@@ -582,7 +590,8 @@ color:$whitecolor !important;
           color: #000;
           transform: translateX(5px);
         }
-        svg{
+
+        svg {
           font-size: 28px;
         }
 
@@ -604,7 +613,8 @@ color:$whitecolor !important;
   content: "";
   position: absolute;
   left: 0;
-  bottom: 3px; /* space below text */
+  bottom: 3px;
+  /* space below text */
   width: 0%;
   height: 2px;
   background-color: #ffffff;
@@ -615,30 +625,1428 @@ color:$whitecolor !important;
   width: 100%;
 }
 
-.scrolled{
+.scrolled {
   background-color: #ffffff !important;
   box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15);
-  .nav-item-main li a{
-    color:#000000 !important;
+
+  .nav-item-main li a {
+    color: #000000 !important;
   }
 }
 
-.footer-mail{
-  a{
-    color:#222222 !important;
+.footer-mail {
+  a {
+    color: #222222 !important;
     text-decoration: none !important;
   }
 }
-.tel-sec{
-  a{
-    color:#000000 !important;
+
+.tel-sec {
+  a {
+    color: #000000 !important;
     text-decoration: none !important;
   }
 }
 
 @media (max-width: 768px) and (max-width: 991px) {
   .nav-link::after {
-    bottom: 0; /* space below text */
+    bottom: 0;
+    /* space below text */
   }
 }
 
+@media (max-width: 1300px) {
+  .hero-content h1 {
+    font-size: 57px;
+  }
+
+  .navbar-brand {
+    font-size: 19px !important;
+  }
+
+  .about-sec-cont {
+    font-size: 28px;
+  }
+
+  .education .title {
+    font-size: 28px;
+  }
+
+  .work h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .hero-content h1 {
+    font-size: 53px;
+    line-height: 65px;
+  }
+
+  .about-sec-cont {
+    font-size: 27px;
+    margin-bottom: 50px !important;
+  }
+
+  .para-about p {
+    font-size: 17px;
+    line-height: 36px;
+  }
+
+  .timeline .timeline-item .timeline-right h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+  }
+
+  timeline .timeline-item .timeline-left h3 {
+    font-size: 18px;
+  }
+
+  .education .title {
+    font-size: 27px;
+  }
+
+  .education .education-card {
+    background: #ffffff;
+    padding: 16px;
+  }
+
+  .work h2 {
+    font-size: 27px;
+  }
+
+  .work .work-card button {
+    padding: 8px 10px;
+    font-size: 16px !important;
+  }
+
+  .work .work-card {
+    padding: 20px 15px !important;
+  }
+
+  .contact .contact-col h3 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-image img {
+    max-height: 440px;
+  }
+
+  .hero-content {
+    padding: 7px 30px !important;
+  }
+
+  .hero-content h1 {
+    font-size: 45px;
+    line-height: 56px;
+  }
+
+  .subtitle {
+    font-size: 19px;
+  }
+
+  .btn-about {
+    padding: 13px 11px !important;
+  }
+
+  .bt-outline-new {
+    padding: 13px 11px !important;
+  }
+
+  .arrow-icon-new svg {
+    font-size: 15px !important;
+  }
+
+  .navbar-brand {
+    font-size: 18px !important;
+  }
+
+  .nav-item-main {
+    gap: 10px !important;
+  }
+
+  .nav-item-main li a {
+    color: #ffffff !important;
+    font-size: 16px !important;
+  }
+
+  .about-sec-cont {
+    font-size: 25px;
+    margin-bottom: 40px !important;
+  }
+
+  .design-tools {
+    padding: 38px 15px 40px 15px;
+  }
+
+  .design-tools h4 {
+    font-size: 17px !important;
+  }
+
+  .para-about p {
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  .timeline .timeline-item .timeline-right {
+    width: 35%;
+  }
+
+  .timeline .timeline-item .timeline-right h3 {
+    font-size: 17px;
+
+  }
+
+  .timeline .timeline-item .timeline-right p {
+    font-size: 16px;
+  }
+
+  .timeline .timeline-item .timeline-left p {
+    font-size: 16px;
+  }
+
+  .timeline .timeline-item .timeline-left h3 {
+    font-size: 18px;
+  }
+
+  .timeline .timeline-item {
+    margin-bottom: 40px !important;
+  }
+
+  .education .title {
+    font-size: 25px;
+  }
+
+  .education-card svg {
+    color: #ff4d4f;
+    margin-bottom: 13px;
+    font-size: 28px;
+  }
+
+  .education .education-card h3 {
+    margin-bottom: 10px !important;
+  }
+
+  .work h2 {
+    font-size: 25px;
+    margin-bottom: 55px !important;
+  }
+
+  .work .work-card button {
+    padding: 7px 9px;
+    font-size: 15px !important;
+    line-height: 23px !important;
+  }
+
+  .contact .contact-col .label {
+    margin-bottom: 15px !important;
+  }
+
+  .contact .contact-grid {
+    gap: 20px !important;
+  }
+
+  .contact {
+    padding: 60px 20px 30px 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-image img {
+    max-height: 440px;
+  }
+
+  .hero-content {
+    padding: 7px 15px !important;
+  }
+
+  .hero-image img {
+    max-height: 400px;
+  }
+
+  .hero-content h1 {
+    font-size: 39px;
+    line-height: 49px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .btn-about {
+    padding: 13px 11px !important;
+  }
+
+  .bt-outline-new {
+    padding: 13px 11px !important;
+  }
+
+  .arrow-icon-new svg {
+    font-size: 15px !important;
+  }
+
+  .navbar-brand {
+    font-size: 16px !important;
+  }
+
+  .nav-item-main {
+    gap: 10px !important;
+  }
+
+  .nav-item-main li a {
+    color: #ffffff !important;
+    font-size: 16px !important;
+  }
+
+  .about-sec-cont {
+    font-size: 24px;
+    margin-bottom: 40px !important;
+  }
+
+  .design-tools {
+    padding: 30px 10px 30px 10px;
+  }
+
+  .design-tools h4 {
+    font-size: 16px !important;
+  }
+
+  .para-about p {
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  .timeline .timeline-item .timeline-right {
+    width: 35%;
+  }
+
+  .timeline .timeline-item .timeline-right h3 {
+    font-size: 17px;
+
+  }
+
+  .timeline .timeline-item .timeline-right p {
+    font-size: 16px;
+  }
+
+  .timeline .timeline-item .timeline-left p {
+    font-size: 16px;
+  }
+
+  .timeline .timeline-item .timeline-left h3 {
+    font-size: 17px;
+  }
+
+  .timeline .timeline-item {
+    margin-bottom: 40px !important;
+  }
+
+  .education .title {
+    font-size: 24px;
+  }
+
+  .education-card svg {
+    color: #ff4d4f;
+    margin-bottom: 13px;
+    font-size: 26px;
+  }
+
+  .education .education-card h3 {
+    margin-bottom: 10px !important;
+  }
+
+  .work h2 {
+    font-size: 24px;
+    margin-bottom: 45px !important;
+  }
+
+  .work .work-card button {
+    padding: 6px 9px;
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+
+  .contact .contact-col .label {
+    margin-bottom: 15px !important;
+  }
+
+  .contact .contact-col h3 {
+    font-size: 17px;
+  }
+
+  .contact .contact-col .sub-text {
+    color: #777;
+    font-size: 15px;
+  }
+
+  .work {
+    padding: 40px 20px;
+  }
+
+  .work .work-card h3 {
+    margin: 15px 0;
+    font-size: 17px;
+  }
+
+  .contact .contact-grid {
+    gap: 20px !important;
+  }
+
+  .contact {
+    padding: 60px 20px 25px 20px;
+  }
+
+  .contact .contact-col ul li svg {
+    font-size: 27px;
+  }
+
+  .row-img-sec .d-flex {
+    width: 50% !important;
+  }
+
+  .btn-about {
+    padding: 11px 6px !important;
+    font-size: 15px !important;
+    margin-right: 5px !important;
+  }
+
+  .bt-outline-new {
+    padding: 11px 6px !important;
+    font-size: 15px !important;
+  }
+
+  .row-img-sec .d-lg-flex {
+    width: 50% !important;
+  }
+
+  .timeline .timeline-line {
+    left: 38px;
+  }
+
+  .desktimeline {
+    display: none !important;
+  }
+
+  .timeline-container .mobiletimeline {
+    display: block !important;
+  }
+
+  .education .education-card h3 {
+    font-size: 16px;
+  }
+}
+
+
+.mobiletimeline {
+  display: none !important;
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .hero-image img {
+    max-height: 440px;
+  }
+
+  .hero-content {
+    padding: 60px 15px !important;
+    width: 100%;
+  }
+
+  .hero-image img {
+    max-height: 350px;
+    /* justify-content: center; */
+    display: flex;
+    /* left: 0; */
+    /* align-items: center; */
+    margin: 0 auto;
+  }
+
+  .hero-content h1 {
+    font-size: 37px;
+    line-height: 49px;
+    margin: 23px 0px;
+  }
+
+  .navbar .container {
+    padding: 11px 0px !important;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .btn-about {
+    padding: 13px 11px !important;
+  }
+
+  .bt-outline-new {
+    padding: 13px 11px !important;
+  }
+
+  .arrow-icon-new svg {
+    font-size: 15px !important;
+  }
+
+  .navbar-brand {
+    font-size: 16px !important;
+  }
+
+  .nav-item-main {
+    gap: 10px !important;
+  }
+
+  .nav-item-main li a {
+    color: #ffffff !important;
+    font-size: 16px !important;
+  }
+
+  .about-sec-cont {
+    font-size: 23px;
+    margin-bottom: 30px !important;
+  }
+
+  .design-tools {
+    padding: 30px 10px 30px 10px;
+  }
+
+  .design-tools h4 {
+    font-size: 16px !important;
+  }
+
+  .para-about p {
+    font-size: 15px;
+    line-height: 33px;
+    margin-top: 20px;
+  }
+
+  .timeline {
+    padding: 45px 20px;
+  }
+
+  .timeline .timeline-item .timeline-right {
+    width: 35%;
+  }
+
+  .timeline .timeline-item .timeline-right h3 {
+    font-size: 17px;
+
+  }
+
+  .education {
+    padding: 45px 20px;
+  }
+
+  .education .education-grid {
+    gap: 23px !important;
+  }
+
+  .timeline .timeline-item .timeline-right p {
+    font-size: 15px;
+  }
+
+  .timeline-container {
+    .about-sec-cont {
+      margin-bottom: 35px !important;
+    }
+  }
+
+  .timeline .timeline-item .timeline-left p {
+    font-size: 15px;
+  }
+
+  .timeline .timeline-item .timeline-left h3 {
+    font-size: 17px;
+  }
+
+  .timeline .timeline-item {
+    margin-bottom: 40px !important;
+  }
+
+  .education .title {
+    font-size: 23px;
+  }
+
+  .education-card svg {
+    color: #ff4d4f;
+    margin-bottom: 13px;
+    font-size: 26px;
+  }
+
+  .education .education-card h3 {
+    margin-bottom: 10px !important;
+  }
+
+  .work h2 {
+    font-size: 23px;
+    margin-bottom: 39px !important;
+  }
+
+  .work .work-card button {
+    padding: 6px 9px;
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+
+  .contact .contact-col .label {
+    margin-bottom: 11px !important;
+  }
+
+  .contact .contact-col h3 {
+    font-size: 16px;
+  }
+
+  .contact .contact-col .sub-text {
+    color: #777;
+    font-size: 15px;
+  }
+
+  .work {
+    padding: 40px 20px;
+  }
+
+  .work .work-card h3 {
+    margin: 25px 0 20px 0px;
+    font-size: 18px;
+  }
+
+  .contact .contact-grid {
+    gap: 20px !important;
+  }
+
+  .contact {
+    padding: 44px 20px 15px 20px;
+  }
+
+  .contact .contact-col ul li svg {
+    font-size: 27px;
+  }
+
+  .row-img-sec .d-flex {
+    width: 100% !important;
+  }
+
+  .btn-about {
+    padding: 11px 10px !important;
+    font-size: 15px !important;
+    margin-right: 9px !important;
+  }
+
+  .bt-outline-new {
+    padding: 11px 10px !important;
+    font-size: 15px !important;
+  }
+
+  .row-img-sec .d-lg-flex {
+    width: 100% !important;
+  }
+
+  .timeline .timeline-line {
+    left: 38px;
+  }
+
+  .desktimeline {
+    display: none !important;
+  }
+
+  .timeline-container .mobiletimeline {
+    display: block !important;
+  }
+
+  .education .education-card h3 {
+    font-size: 16px;
+  }
+
+  .main-inner-sec {
+    padding: 40px 20px;
+  }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 575px) {
+   .hero-image img {
+    max-height: 440px;
+  }
+
+  .hero-content {
+    padding: 56px 15px !important;
+    width: 100%;
+  }
+
+  .hero-image img {
+    max-height: 330px;
+    /* justify-content: center; */
+    display: flex;
+    /* left: 0; */
+    /* align-items: center; */
+    margin: 0 auto;
+  }
+
+  .hero-content h1 {
+            font-size: 34px;
+        line-height: 49px;
+        margin: 17px 0px
+  }
+
+  .navbar .container {
+    padding: 5px 18px !important;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .btn-about {
+    padding: 13px 11px !important;
+  }
+
+  .bt-outline-new {
+    padding: 13px 11px !important;
+  }
+
+  .arrow-icon-new svg {
+    font-size: 15px !important;
+  }
+
+  .navbar-brand {
+    font-size: 16px !important;
+  }
+
+  .nav-item-main {
+    gap: 10px !important;
+  }
+
+  .nav-item-main li a {
+    color: #ffffff !important;
+    font-size: 16px !important;
+  }
+
+  .about-sec-cont {
+   font-size: 22px;
+        margin-bottom: 27px !important;
+  }
+
+  .design-tools {
+    padding: 30px 10px 30px 10px;
+  }
+
+  .design-tools h4 {
+    font-size: 16px !important;
+  }
+
+  .para-about p {
+    font-size: 15px;
+    line-height: 33px;
+    margin-top: 20px;
+  }
+
+  .timeline {
+    padding: 45px 20px;
+  }
+
+  .timeline .timeline-item .timeline-right {
+    width: 35%;
+  }
+
+  .timeline .timeline-item .timeline-right h3 {
+    font-size: 17px;
+
+  }
+
+  .education {
+    padding: 45px 20px;
+  }
+
+  .education .education-grid {
+    gap: 23px !important;
+  }
+
+  .timeline .timeline-item .timeline-right p {
+    font-size: 15px;
+  }
+
+  .timeline-container {
+    .about-sec-cont {
+      margin-bottom: 35px !important;
+    }
+  }
+
+  .timeline .timeline-item .timeline-left p {
+    font-size: 15px;
+  }
+
+  .timeline .timeline-item .timeline-left h3 {
+    font-size: 17px;
+  }
+
+  .timeline .timeline-item {
+    margin-bottom: 40px !important;
+  }
+
+  .education .title {
+    font-size: 22px;
+  }
+
+  .education-card svg {
+    color: #ff4d4f;
+            margin-bottom: 12px;
+        font-size: 25px;
+  }
+
+  .education .education-card h3 {
+    margin-bottom: 10px !important;
+  }
+
+  .work h2 {
+    font-size: 22px;
+    margin-bottom: 33px !important;
+  }
+
+  .work .work-card button {
+    padding: 6px 9px;
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+
+  .contact .contact-col .label {
+    margin-bottom: 11px !important;
+  }
+
+  .contact .contact-col h3 {
+    font-size: 16px;
+  }
+.work .modal .prev, .work .modal .next{
+  color: #b2adad;
+}
+.work .modal .close{
+    color: #b2adad;
+}
+  .contact .contact-col .sub-text {
+    color: #777;
+    font-size: 15px;
+  }
+
+  .work {
+    padding: 40px 20px;
+  }
+
+  .work .work-card h3 {
+    margin: 25px 0 20px 0px;
+    font-size: 18px;
+  }
+
+  .contact .contact-grid {
+    gap: 16px !important;
+  }
+
+  .contact {
+    padding: 44px 20px 15px 20px;
+  }
+
+  .contact .contact-col ul li svg {
+    font-size: 25px;
+  }
+
+  .row-img-sec .d-flex {
+    width: 100% !important;
+  }
+
+  .btn-about {
+    padding: 11px 10px !important;
+    font-size: 15px !important;
+    margin-right: 9px !important;
+  }
+
+  .bt-outline-new {
+    padding: 11px 10px !important;
+    font-size: 15px !important;
+  }
+
+  .row-img-sec .d-lg-flex {
+    width: 100% !important;
+  }
+
+  .timeline .timeline-line {
+    left: 38px;
+  }
+
+  .desktimeline {
+    display: none !important;
+  }
+
+  .timeline-container .mobiletimeline {
+    display: block !important;
+  }
+
+  .education .education-card h3 {
+    font-size: 16px;
+  }
+
+  .main-inner-sec {
+    padding: 40px 20px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+   .hero-image img {
+    max-height: 440px;
+  }
+
+  .hero-content {
+    padding: 56px 15px !important;
+    width: 100%;
+  }
+
+  .hero-image img {
+    max-height: 310px;
+    /* justify-content: center; */
+    display: flex;
+    /* left: 0; */
+    /* align-items: center; */
+    margin: 0 auto;
+  }
+
+  .hero-content h1 {
+            font-size: 32px;
+        line-height: 49px;
+        margin: 17px 0px
+  }
+
+  .navbar .container {
+    padding: 5px 18px !important;
+  }
+  .main-sec {
+    background: linear-gradient(to right, #ffffff 70%, #144b9d 50%);
+}
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .btn-about {
+    padding: 13px 11px !important;
+  }
+
+  .bt-outline-new {
+    padding: 13px 11px !important;
+  }
+
+  .arrow-icon-new svg {
+    font-size: 15px !important;
+  }
+
+  .navbar-brand {
+    font-size: 15px !important;
+  }
+
+  .nav-item-main {
+    gap: 10px !important;
+  }
+
+  .nav-item-main li a {
+    color: #ffffff !important;
+    font-size: 16px !important;
+  }
+  .me-email svg{
+    font-size: 21px !important;
+  }
+
+  .about-sec-cont {
+   font-size: 22px;
+        margin-bottom: 27px !important;
+  }
+
+  .design-tools {
+    padding: 30px 15px 30px 15px;
+  }
+
+  .design-tools h4 {
+    font-size: 16px !important;
+  }
+
+  .para-about p {
+    font-size: 15px;
+    line-height: 33px;
+    margin-top: 20px;
+  }
+
+  .timeline {
+    padding: 45px 20px;
+  }
+
+  .timeline .timeline-item .timeline-right {
+    width: 35%;
+  }
+
+  .timeline .timeline-item .timeline-right h3 {
+    font-size: 17px;
+
+  }
+
+  .education {
+    padding: 45px 20px;
+  }
+
+  .education .education-grid {
+    gap: 23px !important;
+  }
+
+  .timeline .timeline-item .timeline-right p {
+    font-size: 15px;
+  }
+
+  .timeline-container {
+    .about-sec-cont {
+      margin-bottom: 35px !important;
+    }
+  }
+
+  .timeline .timeline-item .timeline-left p {
+    font-size: 15px;
+  }
+
+  .timeline .timeline-item .timeline-left h3 {
+    font-size: 17px;
+  }
+
+  .timeline .timeline-item {
+    margin-bottom: 40px !important;
+  }
+
+  .education .title {
+    font-size: 22px;
+  }
+
+  .education-card svg {
+    color: #ff4d4f;
+            margin-bottom: 12px;
+        font-size: 25px;
+  }
+
+  .education .education-card h3 {
+    margin-bottom: 10px !important;
+  }
+
+  .work h2 {
+    font-size: 22px;
+    margin-bottom: 33px !important;
+  }
+
+  .work .work-card button {
+    padding: 6px 9px;
+    font-size: 15px !important;
+    line-height: 25px !important;
+  }
+
+  .contact .contact-col .label {
+    margin-bottom: 11px !important;
+  }
+
+  .contact .contact-col h3 {
+    font-size: 16px;
+  }
+.work .modal .prev, .work .modal .next{
+  color: #b2adad;
+}
+.work .modal .close{
+    color: #b2adad;
+}
+  .contact .contact-col .sub-text {
+    color: #777;
+    font-size: 15px;
+  }
+
+  .work {
+    padding: 40px 20px;
+  }
+
+  .work .work-card h3 {
+    margin: 25px 0 20px 0px;
+    font-size: 18px;
+  }
+
+  .contact .contact-grid {
+    gap: 16px !important;
+  }
+
+  .contact {
+    padding: 44px 20px 15px 20px;
+  }
+
+  .contact .contact-col ul li svg {
+    font-size: 25px;
+  }
+
+  .row-img-sec .d-flex {
+    width: 100% !important;
+  }
+
+  .btn-about {
+    padding: 11px 10px !important;
+    font-size: 15px !important;
+    margin-right: 9px !important;
+  }
+
+  .bt-outline-new {
+    padding: 11px 10px !important;
+    font-size: 15px !important;
+  }
+
+  .row-img-sec .d-lg-flex {
+    width: 100% !important;
+  }
+
+  .timeline .timeline-line {
+    left: 38px;
+  }
+
+  .desktimeline {
+    display: none !important;
+  }
+
+  .timeline-container .mobiletimeline {
+    display: block !important;
+  }
+
+  .education .education-card h3 {
+    font-size: 16px;
+  }
+
+  .main-inner-sec {
+    padding: 40px 10px;
+  }
+  .tool-list{
+    gap: 9px;
+  }
+}
+@media only screen and (max-width: 430px) {
+      .hero-content h1 {
+        font-size: 30px;
+        line-height: 49px;
+        margin: 17px 0px 17px 0px;
+    }
+    .hero-image img {
+        max-height: 280px;
+
+    }
+        .about-sec-cont {
+        font-size: 20px;
+        margin-bottom: 22px !important;
+    }
+        .timeline-container .about-sec-cont {
+        margin-bottom: 33px !important;
+    }
+        .timeline .timeline-item .timeline-left h3 {
+        font-size: 16px;
+    }
+        .timeline .timeline-item {
+        margin-bottom: 30px !important;
+    }
+        .timeline .timeline-item .timeline-left p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .timeline .timeline-line{
+          top: 42px;
+    }
+    .education .title {
+        font-size: 20px;
+    }
+    .education .divider{
+          margin-bottom: 30px;
+    }
+        .work .work-card h3 {
+        margin: 25px 0 20px 0px;
+        font-size: 17px;
+    }
+        .work .work-card button {
+        padding: 5px 9px;
+        }
+}
+
+@media only screen and (max-width: 400px) {
+      .navbar-brand {
+        font-size: 14px !important;
+    }
+        .main-sec {
+        background: linear-gradient(to right, #ffffff 73%, #144b9d 50%);
+    }
+        .subtitle {
+        font-size: 15px;
+    }
+        .hero-content h1 {
+        font-size: 27px;
+        line-height: 49px;
+        margin:14px 0px 0px 0px;
+    }
+        .btn-about {
+        padding: 9px 8px !important;
+        font-size: 14px !important;
+        margin-right: 9px !important;
+    }
+    .bt-outline-new{
+        padding: 9px 8px !important;
+        font-size: 14px !important;
+    }
+        .hero-content {
+        padding: 49px 12px 50px 12px !important;
+        width: 100%;
+    }
+    .hero-buttons{
+      margin-top: 20px !important;
+    }
+        .about-sec-cont {
+        font-size: 19px;
+        margin-bottom: 20px !important;
+    }
+    .tool-chip{
+      font-size: 13px !important;
+    }
+        .para-about p {
+        font-size: 14px;
+        line-height: 32px;
+        }
+            .timeline .timeline-item .timeline-left h3 {
+        font-size: 15px;
+    }
+        .timeline .timeline-item .timeline-left p {
+        font-size: 14px;
+        margin-bottom: 10px;
+        line-height: 29px !important;
+    }
+        .timeline {
+        padding: 45px 10px;
+    }
+        .education .title {
+        font-size: 19px;
+    }
+        .education {
+        padding: 45px 10px;
+    }
+        .education .education-card h3 {
+        font-size: 15px;
+    }
+        .education-card svg {
+        color: #ff4d4f;
+        margin-bottom: 11px;
+        font-size: 22px;
+    }
+        .work h2 {
+        font-size: 19px;
+        margin-bottom: 27px !important;
+    }
+    .work .work-card button{
+      font-size: 14px !important;
+    }
+        .contact .contact-col h3 {
+        font-size: 15px;
+    }
+        .contact .contact-col .label {
+        margin-bottom: 8px !important;
+    }
+        .contact .contact-col ul li svg {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+      .main-sec {
+        background: linear-gradient(to right, #ffffff 79%, #144b9d 50%);
+    }
+    .navbar-toggler{
+      border:none !important;
+    }
+        .hero-content {
+        padding: 49px 9px 50px 9px !important;
+        width: 100%;
+    }
+        .hero-content h1 {
+        font-size: 26px;
+        line-height: 46px;
+        margin: 14px 0px 0px 0px;
+    }
+        .navbar .container {
+        padding: 5px 12px !important;
+    }
+        .arrow-icon-new svg {
+        font-size: 14px !important;
+    }
+        .btn-about {
+        padding: 9px 8px !important;
+        font-size: 13px !important;
+        margin-right: 9px !important;
+    }
+        .bt-outline-new {
+        padding: 9px 8px !important;
+        font-size: 13px !important;
+    }
+        .hero-image img {
+        max-height: 250px;
+    }
+        .about-sec-cont {
+        font-size: 18px;
+        margin-bottom: 16px !important;
+    }
+        .design-tools h4 {
+        font-size: 15px !important;
+    }
+        .para-about p {
+        font-size: 14px;
+        line-height: 31px;
+    }
+        .timeline {
+        padding: 45px 5px;
+    }
+        .education .title {
+        font-size: 18px;
+    }
+        .education .divider {
+        margin-bottom: 25px;
+    }
+    .education .education-card .institute{
+      line-height: 24px !important;
+    }
+    .education .education-card .duration{
+          margin-bottom: 10px !important;
+    }
+        .work h2 {
+        font-size: 18px;
+        margin-bottom: 24px !important;
+    }
+        .work {
+        padding: 40px 10px;
+    }
+        .work .work-card {
+        padding: 20px 10px !important;
+    }
+        .contact {
+        padding: 34px 10px 15px 10px;
+    }
+        .contact .contact-col .sub-text {
+        color: #777;
+        font-size: 14px;
+    }
+    .contact .contact-col .label {
+    font-size: 13px;}
+}
+
+@media only screen and (max-width: 341px) {
+      .navbar-brand {
+        font-size: 13px !important;
+    }
+        .me-email svg {
+        font-size: 16px !important;
+    }
+    .nav-header {
+    z-index: 99999;
+    padding: 6px 0px !important;
+}
+    .subtitle {
+        font-size: 14px;
+    }
+        .hero-content h1 {
+        font-size: 23px;
+        line-height: 46px;
+        margin: 8px 0px 0px 0px;
+    }
+        .hero-buttons {
+        margin-top: 10px !important;
+    }
+        .btn-about {
+        padding: 9px 5px !important;
+        font-size: 13px !important;
+        margin-right: 5px !important;
+    }
+    .bt-outline-new{
+       padding: 9px 5px !important;
+    }
+        .hero-content {
+        padding: 41px 9px 41px 9px !important;
+        width: 100%;
+    }
+        .hero-image img {
+        max-height: 230px;
+    }
+        .main-inner-sec {
+        padding: 35px 10px;
+    }
+        .design-tools {
+        padding: 30px 10px 30px 10px;
+    }
+        .para-about p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+        .timeline {
+        padding: 40px 5px;
+    }
+        .timeline .timeline-item .timeline-left h3 {
+        font-size: 14px;
+    }
+        .about-sec-cont {
+        font-size: 17px;
+        margin-bottom: 16px !important;
+    }
+        .timeline .timeline-item {
+        margin-bottom: 20px !important;
+    }
+        .timeline .timeline-item .timeline-left p {
+        font-size: 13px;
+        margin-bottom: 10px;
+        line-height: 27px !important;
+    }
+        .para-about p {
+        font-size: 13px;
+        line-height: 28px;
+    }
+        .design-tools h4 {
+        font-size: 14px !important;
+    }
+        .education .title {
+        font-size: 17px;
+    }
+        .education .divider {
+        margin-bottom: 24px;
+    }
+        .education .education-card h3 {
+        font-size: 14px;
+    }
+    .education .education-card .institute {
+    font-size: 13px;
+    }
+    .education .education-card .duration {
+    font-size: 13px;
+margin-bottom: 6px !important;
+    }
+        .work h2 {
+        font-size: 17px;
+        margin-bottom: 24px !important;
+    }
+        .work .work-card h3 {
+        margin: 20px 0 14px 0px;
+        font-size: 16px;
+    }
+        .work .work-card button {
+        font-size: 13px !important;
+    }
+        .work .work-card button {
+        padding: 3px 9px;
+    }
+        .contact .contact-col .sub-text {
+        color: #777;
+        font-size: 13px;
+    }
+        .contact .contact-col h3 {
+        font-size: 14px;
+    }
+        .contact .contact-grid {
+        gap: 10px !important;
+    }
+
+        .contact {
+        padding: 29px 10px 13px 10px;
+    }
+}

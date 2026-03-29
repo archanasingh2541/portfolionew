@@ -79,32 +79,38 @@ import digiimg03 from "../assets/img/digiform-portal/digi-form-03.png";
 
 const experiences = [
   {
-    company: "Nest Innovative Solutions",
-    date: "2015-2016",
-    role: "Software Developer",
-    desc: "In my previous role as a UI/UX Designer, I honed my skills in crafting user-centered interfaces that are both beautiful and functional. I focused on understanding user needs through research and testing, then translated those insights into intuitive and visually appealing designs. I collaborated closely with developers to ensure my designs came to life seamlessly, resulting in successful digital products",
+    company: "Ivdisplays Digital Service Pvt Ltd",
+    date: "2020-Now",
+    role: "Senior Frontend Developer",
+    desc: "I bring user interfaces to life as a Front-End Developer, utilizing React.js, Material UI, and modern web technologies (HTML5, CSS3, Bootstrap5, Sass, JavaScript) to build responsive and interactive web experiences. I leverage Adobe XD for efficient workflows and prioritize code reusability by developing custom components and front-end libraries. My expertise extends to unit testing for robust code, and I enjoy fostering a collaborative environment by mentoring junior developers on React UI and responsive design principles",
+   
     color: "green",
-  },
-  {
-    company: "Onex Solutions",
-    date: "2017-2019",
-    role: "Web Developer",
-    desc: "I leverage my expertise in HTML, CSS (including Bootstrap), and JavaScript to build responsive web pages that prioritize user experience with intuitive and visually appealing interfaces. My commitment to quality extends to ensuring code functionality through unit testing",
-    color: "red",
   },
   {
     company: "Webizzoo",
     date: "2019-2020",
     role: "Web Developer",
     desc: "Specializing in web development, I design and build web pages using React.js, JavaScript, CSS, Bootstrap 4, and HTML5. My focus lies in creating responsive layouts that adapt smoothly across different devices. Additionally, I implement jQuery to enhance interactivity and user experience. Through meticulous attention to detail and rigorous testing, I ensure the reliability and performance of each component, delivering high-quality, responsive web solutions",
+   
+    color: "red",
+  },
+  {
+     company: "Onex Solutions",
+    date: "2017-2019",
+    role: "Web Developer",
+    desc: "I leverage my expertise in HTML, CSS (including Bootstrap), and JavaScript to build responsive web pages that prioritize user experience with intuitive and visually appealing interfaces. My commitment to quality extends to ensuring code functionality through unit testing",
+   
     color: "yellow",
   },
   {
-    company: "Ivdisplays Digital Service Pvt Ltd",
-    date: "2020-Now",
-    role: "Senior Frontend Developer",
-    desc: "I bring user interfaces to life as a Front-End Developer, utilizing React.js, Material UI, and modern web technologies (HTML5, CSS3, Bootstrap5, Sass, JavaScript) to build responsive and interactive web experiences. I leverage Adobe XD for efficient workflows and prioritize code reusability by developing custom components and front-end libraries. My expertise extends to unit testing for robust code, and I enjoy fostering a collaborative environment by mentoring junior developers on React UI and responsive design principles",
-    color: "yellow",
+     company: "Nest Innovative Solutions",
+    date: "2015-2016",
+    role: "Software Developer",
+    desc: "In my previous role as a UI/UX Designer, I honed my skills in crafting user-centered interfaces that are both beautiful and functional. I focused on understanding user needs through research and testing, then translated those insights into intuitive and visually appealing designs. I collaborated closely with developers to ensure my designs came to life seamlessly, resulting in successful digital products",
+   
+     color: "yellow",
+
+    
   },
 ];
 
@@ -113,7 +119,7 @@ const experiences = [
 const projectsData = [
   {
     id: 1,
-    name: "public-health-management",
+    name: "Public Health Management",
     cover: img1,
     images: 
       [img01, img02, img03, img04, img05, img06, img07, img08, img09, img10, img11, img12, img13, img14, img15, img16],
@@ -257,14 +263,14 @@ const Profile = () => {
         <Header />
         <section className="hero-section">
       <div className="container-fluid">
-        <div className="row min-vh-100">
+        <div className="row min-vh-100 row-img-sec">
           
           {/* LEFT CONTENT */}
           <div className="col-lg-6 d-flex align-items-center">
             <div className="hero-content px-5">
               <span className="subtitle">SENIOR FRONTEND UI/UX DEVELOPER</span>
               <h1>
-                I'm Archana <br /> Kumari
+                I'm Archana  Kumari
               </h1>
               {/* <p>Front-end developers are the architects of the web experiences we encounter every day. They translate stunning visual designs from UI/UX designers into functional and interactive websites and web applications. Their expertise lies in crafting the front-end, the user-facing side that users see and interact with. Using a combination of programming languages like HTML, CSS, and JavaScript, they bring web pages to life, ensuring smooth navigation, animations, and a visually captivating design that adheres to responsive layouts for optimal display across various devices
 
@@ -272,11 +278,11 @@ const Profile = () => {
 
               <div className="hero-buttons mt-4">
                <a href="#about"> <button className="btn btn-about  me-3">
-                  More About Me <span><EastIcon /></span>
+                  More About Me <span className="arrow-icon-new"><EastIcon /></span>
                 </button></a>
                 <button className="btn bt-outline-new">
                   <a href="/archana-cv.pdf" download="archana_Resume.pdf" style={{ textDecoration: "none", color: "inherit" }}>
-                  Resume Download <span><DownloadIcon /></span>
+                  Resume Download <span className="arrow-icon-new"><DownloadIcon /></span>
                   </a>
                 </button>
 
@@ -285,7 +291,7 @@ const Profile = () => {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="col-lg-6 hero-image d-none d-lg-flex align-items-end">
+          <div className="col-lg-6 hero-image  d-lg-flex align-items-end">
             <img
               src={profileimg}
               alt="profile"
@@ -371,33 +377,79 @@ const Profile = () => {
       <div className="timeline-container">
         <h2 className="about-sec-cont">Relevant Experience</h2>
         <div className="timeline-line"></div>
-
+        <div className="desktimeline">
         {experiences.map((item, index) => (
+          <>
           <div
             key={index}
             className={`timeline-item ${
               index % 1 === 0 ? "reverse" : ""
             }`}
           >
-            {/* Left */}
+           
             <div className="timeline-left">
             
                <h3>{item.role}</h3>
               <p>{item.desc}</p>
             </div>
 
-            {/* Center Dot */}
+           
             <div className="timeline-center">
               <span className={`dot ${item.color}`}></span>
             </div>
 
-            {/* Right */}
+           
             <div className="timeline-right">
                <h3>{item.company}</h3>
               <p>{item.date}</p>
             </div>
           </div>
+
+       
+
+          </>
+
+
+
         ))}
+</div>
+     <div className="mobiletimeline">
+         {experiences.map((item, index) => (
+          <>
+          <div
+            key={index}
+            className={`timeline-item ${
+              index % 1 === 0 ? "reverse" : ""
+            }`}
+          >
+           
+            <div className="timeline-left">
+               <h3>{item.company}</h3>
+              <p>{item.date}</p>
+               <h3>{item.role}</h3>
+              <p>{item.desc}</p>
+            </div>
+
+           
+            <div className="timeline-center">
+              <span className={`dot ${item.color}`}></span>
+            </div>
+
+           
+            {/* <div className="timeline-right">
+               <h3>{item.company}</h3>
+              <p>{item.date}</p>
+            </div> */}
+          </div>
+
+       
+
+          </>
+
+
+
+        ))}
+        </div>
       </div>
     </section>
 
