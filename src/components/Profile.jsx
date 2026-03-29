@@ -6,6 +6,7 @@ import Header from "./Header";
 import SchoolIcon from '@mui/icons-material/School';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+
 import WorkIcon from "@mui/icons-material/Work";
 import img1 from "../assets/img/image-01.png";
 import img01 from "../assets/img/public-health-management/image-01.png";
@@ -261,7 +262,7 @@ const Profile = () => {
           {/* LEFT CONTENT */}
           <div className="col-lg-6 d-flex align-items-center">
             <div className="hero-content px-5">
-              <span className="subtitle">FRONTEND UI/UX DESIGNER & DEVELOPER</span>
+              <span className="subtitle">SENIOR FRONTEND UI/UX DEVELOPER</span>
               <h1>
                 I'm Archana <br /> Kumari
               </h1>
@@ -270,12 +271,15 @@ const Profile = () => {
               </p> */}
 
               <div className="hero-buttons mt-4">
-                <button className="btn btn-about  me-3">
+               <a href="#about"> <button className="btn btn-about  me-3">
                   More About Me <span><EastIcon /></span>
-                </button>
+                </button></a>
                 <button className="btn bt-outline-new">
+                  <a href="/archana-cv.pdf" download="archana_Resume.pdf" style={{ textDecoration: "none", color: "inherit" }}>
                   Resume Download <span><DownloadIcon /></span>
+                  </a>
                 </button>
+
               </div>
             </div>
           </div>
@@ -337,7 +341,24 @@ const Profile = () => {
 
                        <div className="col-md-6">
                         <div className="para-about">
-                        <p>Front-end developers are the architects of the web experiences we encounter every day. They translate stunning visual designs from UI/UX designers into functional and interactive websites and web applications. Their expertise lies in crafting the front-end, the user-facing side that users see and interact with. Using a combination of programming languages like HTML, CSS, and JavaScript, they bring web pages to life, ensuring smooth navigation, animations, and a visually captivating design that adheres to responsive layouts for optimal display across various devices.</p>
+                        {/* <p>
+                          Front-end developers are the architects of the web experiences we encounter every day. 
+                          They translate stunning visual designs from UI/UX designers into functional and 
+                          interactive websites and web applications. 
+                          Their expertise lies in crafting the front-end, 
+                          the user-facing side that users see and interact with
+                          .I also create wireframes and UI designs using tools like Adobe XD and Figma, helping to define clear structure and user flow before development begins. Using a combination of programming 
+                          languages like React UI, HTML, CSS, SASS, TAILWIND CSS, BOOTSTRAP and JavaScript, 
+                          they bring web pages to life, ensuring smooth navigation, animations, and a visually 
+                          captivating design that adheres to responsive layouts for optimal display across various devices.</p> */}
+                     <p>
+                      Front-end developers are the architects of the web experiences we encounter every day, 
+                      transforming UI/UX designs into functional and interactive websites and applications.
+                       I design wireframes using Adobe XD and Figma to establish a clear structure and user flow before development. 
+                       Using technologies like React, HTML, CSS, SASS, Tailwind CSS, Bootstrap, and JavaScript, 
+                      I build responsive and visually appealing interfaces with smooth navigation and user-friendly interactions.
+                     </p>
+                     
                       </div>
                       </div>
                 </div>
@@ -480,9 +501,9 @@ const Profile = () => {
               {/* <li>LinkedIn</li>
               <li>Instagram</li>
               <li>Portfolio</li> */}
-              <li><LinkedInIcon titleAccess="LinkedIn"/> </li>
+              <li><a href="https://www.linkedin.com/in/archana-singh-b815b594/" target="_blank"><LinkedInIcon titleAccess="LinkedIn"/></a> </li>
               <li><InstagramIcon titleAccess="Instagram"/> </li>
-              <li><WorkIcon titleAccess="Portfolio"/> </li>
+              <li><a href="https://archana-portfolio.pages.dev/" target="_blank"><WorkIcon titleAccess="Portfolio"/> </a></li>
             </ul>
           </div>
 

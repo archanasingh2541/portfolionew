@@ -573,6 +573,9 @@ color:$whitecolor !important;
         margin-bottom: 12px;
         cursor: pointer;
         transition: 0.3s;
+        a{
+          color: #222;
+        }
 
         &:hover {
           color: #000;
