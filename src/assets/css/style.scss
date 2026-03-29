@@ -731,6 +731,9 @@ body {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .hero-section .min-vh-100 {
+    min-height: 73vh !important;
+}
   .hero-image img {
     max-height: 440px;
   }
@@ -855,6 +858,9 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hero-section .min-vh-100 {
+    min-height: 60vh !important;
+}
   .hero-image img {
     max-height: 440px;
   }
@@ -894,6 +900,7 @@ body {
 
   .nav-item-main {
     gap: 10px !important;
+            margin-top: 15px;
   }
 
   .nav-item-main li a {
@@ -1046,6 +1053,13 @@ body {
 
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+   .hero-section .min-vh-100 {
+    min-height: 60vh !important;
+}
+   .nav-item-main {
+    gap: 10px !important;
+            margin-top: 15px;
+  }
   .hero-image img {
     max-height: 440px;
   }
@@ -1266,6 +1280,14 @@ body {
 }
 
 @media only screen and (min-width: 481px) and (max-width: 575px) {
+
+   .hero-section .min-vh-100 {
+    min-height: 60vh !important;
+}
+   .nav-item-main {
+    gap: 10px !important;
+            margin-top: 15px;
+  }
    .hero-image img {
     max-height: 440px;
   }
@@ -1276,7 +1298,7 @@ body {
   }
 
   .hero-image img {
-    max-height: 330px;
+    max-height: 290px;
     /* justify-content: center; */
     display: flex;
     /* left: 0; */
@@ -1491,17 +1513,24 @@ body {
 
 
 @media only screen and (max-width: 480px) {
+   .hero-section .min-vh-100 {
+    min-height: 60vh !important;
+}
+   .nav-item-main {
+    gap: 10px !important;
+            margin-top: 15px;
+  }
    .hero-image img {
     max-height: 440px;
   }
 
   .hero-content {
-    padding: 56px 15px !important;
+    padding: 43px 15px 39px 15px !important;
     width: 100%;
   }
 
   .hero-image img {
-    max-height: 310px;
+    max-height: 250px;
     /* justify-content: center; */
     display: flex;
     /* left: 0; */
@@ -1860,7 +1889,7 @@ body {
       border:none !important;
     }
         .hero-content {
-        padding: 49px 9px 50px 9px !important;
+        padding: 39px 9px 40px 9px !important;
         width: 100%;
     }
         .hero-content h1 {
@@ -2049,4 +2078,12 @@ margin-bottom: 6px !important;
         .contact {
         padding: 29px 10px 13px 10px;
     }
+}
+
+.navbar-toggler{
+  border: none !important;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important;
 }
