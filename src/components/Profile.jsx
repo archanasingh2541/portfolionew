@@ -285,7 +285,7 @@ const Profile = () => {
           </div>
 
           {/* RIGHT IMAGE */}
-          <div className="col-lg-6 hero-image d-none d-lg-flex">
+          <div className="col-lg-6 hero-image d-none d-lg-flex align-items-end">
             <img
               src={profileimg}
               alt="profile"
@@ -296,7 +296,7 @@ const Profile = () => {
       </div>
      
     </section>
-    </div>
+  
 
     <section id="about">
 
@@ -483,8 +483,10 @@ const Profile = () => {
           {/* Contact */}
           <div className="contact-col">
             <p className="label">CONTACT</p>
-            <h3>archanasingh2541@gmail.com</h3>
-            <p className="sub-text">+91 9609056547/ +916297335683</p>
+            <h3 className="footer-mail"> <a href="mailto:archanasingh2541@gmail.com">archanasingh2541@gmail.com</a></h3>
+            <p className="sub-text tel-sec">
+              <a href="tel:+919609056547">+91 9609056547</a> / <a href="tel:+916297335683">+91 6297335683</a>
+              </p>
           </div>
 
           {/* Location */}
@@ -503,7 +505,7 @@ const Profile = () => {
               <li>Instagram</li>
               <li>Portfolio</li> */}
               <li><a href="https://www.linkedin.com/in/archana-singh-b815b594/" target="_blank"><LinkedInIcon titleAccess="LinkedIn"/></a> </li>
-              <li><InstagramIcon titleAccess="Instagram"/> </li>
+              {/* <li><InstagramIcon titleAccess="Instagram"/> </li> */}
               <li><a href="https://archana-portfolio.pages.dev/" target="_blank"><WorkIcon titleAccess="Portfolio"/> </a></li>
             </ul>
           </div>
@@ -512,6 +514,8 @@ const Profile = () => {
 
       </div>
     </section>
+
+      </div>
         </>
     );
 }

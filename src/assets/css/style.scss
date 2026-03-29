@@ -40,7 +40,7 @@ body {
     object-fit: cover;
     height: 100%;
     position: relative;
-    bottom: -22px;
+    bottom: 0px;
   }
 }
 
@@ -612,5 +612,32 @@ color:$whitecolor !important;
 
 .nav-link:hover::after {
   width: 100%;
+}
+
+.scrolled{
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.15);
+  .nav-item-main li a{
+    color:#000000 !important;
+  }
+}
+
+.footer-mail{
+  a{
+    color:#222222 !important;
+    text-decoration: none !important;
+  }
+}
+.tel-sec{
+  a{
+    color:#000000 !important;
+    text-decoration: none !important;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 991px) {
+  .nav-link::after {
+    bottom: 0; /* space below text */
+  }
 }
 

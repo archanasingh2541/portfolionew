@@ -2,13 +2,30 @@ import React from "react";
 import EmailIcon from '@mui/icons-material/Email';
 // import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { useEffect, useState } from "react";
 
 const Header = () => {
+
+    const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
     return (
        <>
-       <nav className="navbar navbar-expand-lg bg-transparent py-4 nav-header">
+       <nav className={`navbar navbar-expand-lg bg-transparent py-4 nav-header sticky-top ${scrolled ? "scrolled" : ""}`}>
       <div className="container">
-        <a className="navbar-brand fw-bold" href="#">
+        <a className="navbar-brand fw-bold" href="mailto:archanasingh2541@gmail.com">
          <span className="me-email"><EmailIcon /></span>archanasingh2541@gmail.com
         </a>
 
