@@ -858,6 +858,21 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .navbar-collapse {
+    position: absolute; /* overlay on top */
+    top: 100%;          /* right below navbar */
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* or same as header */
+    z-index: 9999;
+    padding: 10px 0 10px 0px;
+  }
+
+  .navbar-collapse .nav-link {
+    padding: 0.5rem 2.4rem;
+    color:#000000 !important
+  }
     .hero-section .min-vh-100 {
     min-height: 60vh !important;
 }
@@ -900,7 +915,7 @@ body {
 
   .nav-item-main {
     gap: 10px !important;
-            margin-top: 15px;
+            margin-top: 0px;
   }
 
   .nav-item-main li a {
@@ -1053,6 +1068,20 @@ body {
 
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+   .navbar-collapse {
+    position: absolute; /* overlay on top */
+    top: 100%;          /* right below navbar */
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* or same as header */
+    z-index: 9999;
+    padding: 10px 0 10px 0px;
+  }
+
+  .navbar-collapse .nav-link {
+    padding: 0.5rem 2.4rem;
+    color:#000000 !important
+  }
    .hero-section .min-vh-100 {
     min-height: 60vh !important;
 }
@@ -1280,6 +1309,20 @@ body {
 }
 
 @media only screen and (min-width: 481px) and (max-width: 575px) {
+   .navbar-collapse {
+    position: absolute; /* overlay on top */
+    top: 100%;          /* right below navbar */
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* or same as header */
+    z-index: 9999;
+    padding: 10px 0 10px 0px;
+  }
+
+  .navbar-collapse .nav-link {
+    padding: 0.5rem 2.4rem;
+    color:#000000 !important
+  }
 
    .hero-section .min-vh-100 {
     min-height: 60vh !important;
@@ -1513,6 +1556,20 @@ body {
 
 
 @media only screen and (max-width: 480px) {
+   .navbar-collapse {
+    position: absolute; /* overlay on top */
+    top: 100%;          /* right below navbar */
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* or same as header */
+    z-index: 9999;
+    padding: 10px 0 10px 0px;
+  }
+
+  .navbar-collapse .nav-link {
+    padding: 0.5rem 2.4rem;
+    color:#000000 !important
+  }
    .hero-section .min-vh-100 {
     min-height: 60vh !important;
 }
@@ -2087,3 +2144,47 @@ margin-bottom: 6px !important;
 .navbar-toggler:focus{
   box-shadow: none !important;
 }
+
+// .nav-header{
+//   .show{
+//            z-index: 999999999;
+//     background-color: rgb(255, 255, 255);
+//     position: absolute;
+//     width: 100%;
+//     top: 60px;
+//     left: 0;
+//     .nav-item-main{
+//       li{
+//         a{
+//           color:#000 !important;
+//         }
+//       }
+//     }
+//   }
+// }
+// .nav-header{
+//   .show{
+//     .nav-item-main {
+//         gap: 10px !important;
+//         margin-top: 15px;
+//         position: absolute;
+//         width: 100%;
+//         background-color: #ffffff;
+//     }
+//   }
+// }
+// .nav-header{
+//   .show{
+
+//     background-color: #ffffff;
+//     color: #000 !important;
+//     position: absolute;
+//     top: 50px;
+//     width: 100%;
+//     left: 0px;
+//     .nav-item-main li a{
+//       color:#000 !important
+//     }
+//   }
+// }
+
