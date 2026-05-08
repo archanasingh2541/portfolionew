@@ -281,7 +281,7 @@ const Profile = () => {
                   More About Me <span className="arrow-icon-new"><EastIcon /></span>
                 </button></a>
                 <button className="btn bt-outline-new">
-                  <a href="/archana-cv.pdf" download="archana_Resume.pdf" style={{ textDecoration: "none", color: "inherit" }}>
+                  <a href="/Archana_Kumari-cv.pdf" download="archana_Resume.pdf" style={{ textDecoration: "none", color: "inherit" }}>
                   My Resume <span className="arrow-icon-new"><DownloadIcon /></span>
                   </a>
                 </button>
