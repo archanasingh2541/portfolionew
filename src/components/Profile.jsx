@@ -268,7 +268,7 @@ const Profile = () => {
           {/* LEFT CONTENT */}
           <div className="col-lg-6 d-flex align-items-center">
             <div className="hero-content px-5">
-              <span className="subtitle">SENIOR FRONTEND UI/UX DEVELOPER</span>
+              <span className="subtitle">SENIOR UI/UX DESIGNER & FRONTEND DEVELOPER</span>
               <h1>
                 I'm Archana  Kumari
               </h1>
