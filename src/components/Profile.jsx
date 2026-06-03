@@ -80,7 +80,7 @@ import digiimg03 from "../assets/img/digiform-portal/digi-form-03.png";
 const experiences = [
   {
     company: "Ivdisplays Digital Service Pvt Ltd",
-    date: "2020-Now",
+    date: "2020-2026",
     role: "Senior Frontend Developer",
     desc: "I bring user interfaces to life as a Front-End Developer, utilizing React.js, Material UI, and modern web technologies (HTML5, CSS3, Bootstrap5, Sass, JavaScript) to build responsive and interactive web experiences. I leverage Adobe XD for efficient workflows and prioritize code reusability by developing custom components and front-end libraries. My expertise extends to unit testing for robust code, and I enjoy fostering a collaborative environment by mentoring junior developers on React UI and responsive design principles",
    
