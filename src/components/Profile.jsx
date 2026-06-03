@@ -89,7 +89,7 @@ const experiences = [
   {
     company: "Webizzoo",
     date: "2019-2020",
-    role: "Web Developer",
+    role: "UI Developer",
     desc: "Specializing in web development, I design and build web pages using React.js, JavaScript, CSS, Bootstrap 4, and HTML5. My focus lies in creating responsive layouts that adapt smoothly across different devices. Additionally, I implement jQuery to enhance interactivity and user experience. Through meticulous attention to detail and rigorous testing, I ensure the reliability and performance of each component, delivering high-quality, responsive web solutions",
    
     color: "red",
