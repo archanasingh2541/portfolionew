@@ -475,7 +475,7 @@ const Profile = () => {
             <p className="institute">
               Andhra Higher Secondary School
             </p>
-            <p className="duration">Duration : 2011-2015</p>
+            <p className="duration">Duration : 2009-2011</p>
           </div>
 
           <div className="education-card">
